@@ -1,9 +1,35 @@
-.div{
-    color:wheat
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
 }
-.header {
-    background: rgb(2, 217, 255);
+
+form {
+    background: linear-gradient(to right, #d40d0d, #f3ef07);
+    border-radius: 15px;
+    max-width: 300px;
+    padding: 30px;
+    text-align: center;
 }
-.hero {
-color: black;
+
+input[type="text"],
+input[type="password"] {
+    background: linear-gradient(to right, #d40d0d, #f3ef07);
+    width: 100%; 
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.submit-title {
+    color: #d0ff00; 
+    background: linear-gradient(to right, #ff0000, #ff9900);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 24px; 
+    margin: 20px 0; 
 }
