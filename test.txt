@@ -1,5 +1,0 @@
-git clone {URL}
-git comit -m "message"
-git push
-
-git pull
