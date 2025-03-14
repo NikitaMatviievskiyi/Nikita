@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6E5DC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.banner {
+    background-color: #2F180C;
+    text-align: center;
+    color: khaki;
+    height: 60px;
+}
+
+.up {
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+
+.left > img {
+    height: 350px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 150%;
+    padding: 70px;
+}
+
+.down {
+    background-color: #D0B6A8;
+    padding: 30px;
+    text-align: center;
+}
+
+.down form .osoby label {
+    display: block; 
+    color: #2F180C;
+    margin-bottom: 5px;
+}
+
+.down form .osoby input {
+    width: 150px;
+    margin-top: 5px;
+}
+
+.down form button {
+    margin: 10px;
+    padding: 5px;
+    background-color: #2F180C;
+    color: khaki;
+}
+
+.footer {
+    color: khaki;
+    background-color: #2F180C;
+    height: 60px;
+}
